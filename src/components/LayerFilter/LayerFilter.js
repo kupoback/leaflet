@@ -11,11 +11,11 @@ const LayerFilter = (props) => {
         <TileLayer attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' url='https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png' />
       </LayersControl.BaseLayer>
       <LayersControl.BaseLayer name='OpenStreetMap Cycle'>
-        <TileLayer attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' url='http://tile.thunderforest.com/cycle/{z}/{x}/{y}.png' />
+        <TileLayer attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' url='https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png' />
       </LayersControl.BaseLayer>
-      <LayersControl.BaseLayer name='OpenStreetMap WaterColors'>
+      {/* <LayersControl.BaseLayer name='OpenStreetMap WaterColors'>
         <TileLayer attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' url='http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.png' />
-      </LayersControl.BaseLayer>
+      </LayersControl.BaseLayer> */}
     </LayersControl>
   );
 };
